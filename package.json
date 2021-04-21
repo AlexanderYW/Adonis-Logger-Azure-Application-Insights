@@ -1,0 +1,32 @@
+{
+  "name": "adonis-logger-azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adonisjs",
+    "node",
+    "azure",
+    "application",
+    "insights",
+    "logger"
+  ],
+  "author": "Alexander Wennerstrøm <alexanderw0310@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@adonisjs/ace": "^5.0.1",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/framework": "^5.0.6",
+    "japa": "^1.0.6",
+    "japa-cli": "^1.0.1"
+  },
+  "dependencies": {
+    "applicationinsights": "^1.7.2",
+    "applicationinsights-native-metrics": "0.0.5",
+    "winston": "^3.2.1",
+    "winston-azure-application-insights": "^2.0.0"
+  }
+}
