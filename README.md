@@ -58,7 +58,7 @@
 [license-image]: https://img.shields.io/npm/l/adonis-logger-azure-application-insights?color=blueviolet&style=for-the-badge
 [license-url]: LICENSE.md "license"
 
-[synk-image]: https://img.shields.io/snyk/vulnerabilities/github/adonisjs/drive-gcs?label=Synk%20Vulnerabilities&style=for-the-badge
+[synk-image]: https://img.shields.io/snyk/vulnerabilities/github/alexanderyw/adonis-logger-azure-application-insights?label=Synk%20Vulnerabilities&style=for-the-badge
 [synk-url]: https://snyk.io/test/github/alexanderyw/adonis-logger-azure-application-insights?targetFile=package.json "synk"
 
 [CodeQL-image]: https://img.shields.io/github/workflow/status/alexanderyw/adonis-logger-azure-application-insights/CodeQL?label=CodeQL&style=for-the-badge
