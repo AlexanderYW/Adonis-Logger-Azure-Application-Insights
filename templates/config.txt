@@ -1,0 +1,24 @@
+import { AzureApplicationInsightsConfig } from '@ioc:Adonis/Addons/AzureApplicationInsights'
+import Env from '@ioc:Adonis/Core/Env'
+
+export default {
+  key: Env.get('AZURE_APPLICATION_INSIGHTS_KEY'),
+  endpointUrl: Env.get('AZURE_APPLICATION_INSIGHTS_ENDPOINT_URL'),
+  quickPulseHost: Env.get('AZURE_APPLICATION_INSIGHTS_QUICK_PULSE_HOST'),
+  proxyHttpUrl: Env.get('AZURE_APPLICATION_INSIGHTS_PROXY_HTTP_URL'),
+  proxyHttpsUrl: Env.get('AZURE_APPLICATION_INSIGHTS_PROXY_HTTPS_URL'),
+  autoDependencyCorrelation: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_DEPENDENCY_CORRELATION'),
+  autoCollectRequests: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_REQUESTS'),
+  autoCollectPerformance: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_PERFORMANCE'),
+  autoCollectPerformanceExtended: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_PERFORMANCE_EXTENDED'),
+  autoCollectExceptions: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_EXCEPTIONS'),
+  autoCollectDependencies: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_DEPENDENCIES'),
+  autoCollectConsole: Env.get('AZURE_APPLICATION_INSIGHTS_AUTO_COLLECT_CONSOLE'),
+  useDiskRetryCaching: Env.get('AZURE_APPLICATION_INSIGHTS_USE_DISK_RETRY_CACHING'),
+  sendLiveMetrics: Env.get('AZURE_APPLICATION_INSIGHTS_SEND_LIVE_METRICS'),
+  samplingPercentage: Env.get('AZURE_APPLICATION_INSIGHTS_SAMPLING_PERCENTAGE'),
+  maxBatchSize: Env.get('AZURE_APPLICATION_INSIGHTS_MAX_BATCH_SIZE'),
+  maxBatchIntervalMs: Env.get('AZURE_APPLICATION_INSIGHTS_MAX_BATCH_INTERVAL_MS'),
+  correlationIdRetryIntervalMs: Env.get('AZURE_APPLICATION_INSIGHTS_CORRELATION_ID_RETRY_INTERVAL_MS'),
+  correlationHeaderExcludedDomains: Env.get('AZURE_APPLICATION_INSIGHTS_CORRELATION_HEADER_EXCLUDED_DOMAINS')
+} as AzureApplicationInsightsConfig
