@@ -22,15 +22,11 @@
 <div align="center">
   <h3>
     <a href="https://adonisjs.com">
-      Website
-    </a>
-    <span> | </span>
-    <a href="https://docs.adonisjs.com/guides/drive">
-      Guides
+      AdonisJs
     </a>
     <span> | </span>
     <a href="instructions.md">
-      Azure Storage Guides
+      Azure Application Insights Guide
     </a>
     <span> | </span>
     <a href="CONTRIBUTING.md">
