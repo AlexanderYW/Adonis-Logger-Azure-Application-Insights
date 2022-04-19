@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@adonisjs/core": "^5.7.5",
-    "@adonisjs/mrm-preset": "^5.0.2",
+    "@adonisjs/mrm-preset": "^5.0.3",
     "@adonisjs/require-ts": "^2.0.11",
     "mrm": "^3.0.8",
     "japa": "^4.0.0",
