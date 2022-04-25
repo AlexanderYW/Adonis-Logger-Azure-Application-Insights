@@ -23,6 +23,7 @@
     "build/instructions.md",
     "build/adonis-typings",
     "build/providers",
+    "build/templates",
     "build/src"
   ],
   "keywords": [
@@ -79,6 +80,7 @@
   "peerDependencies": {
     "@adonisjs/core": "^5.0.0"
   },
+  "typings": "./build/adonis-typings/index.d.ts",
   "adonisjs": {
     "instructionsMd": "./build/instructions.md",
     "env": {
