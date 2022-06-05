@@ -1,6 +1,6 @@
 {
   "name": "adonis-logger-azure-application-insights",
-  "version": "5.0.5",
+  "version": "5.0.6",
   "description": "Azure Application Insights logger for AdonisJS",
   "main": "./build/providers/AzureProvider.js",
   "scripts": {
