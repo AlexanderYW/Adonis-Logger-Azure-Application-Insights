@@ -54,7 +54,7 @@
     "anyBranch": false
   },
   "devDependencies": {
-    "@adonisjs/core": "^5.8.3",
+    "@adonisjs/core": "^5.8.4",
     "@adonisjs/mrm-preset": "^5.0.3",
     "@adonisjs/require-ts": "^2.0.12",
     "commitizen": "^4.2.4",
